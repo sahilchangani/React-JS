@@ -1,0 +1,14 @@
+*{
+  padding: 0px;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+
+div{
+  height: 700px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  
+}
