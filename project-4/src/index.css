@@ -1,0 +1,120 @@
+body{
+background-color: rgb(219, 113, 15);
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 450px;
+  margin-left: 550px;
+  background-color: #f9f9f9;
+  border: 0px solid;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3), 0px 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 150px;
+
+
+
+}
+.a1{
+  height: 200px;
+  width: 300px;
+  border: 1px solid;
+  background-color: white;
+}
+.a2{
+  height: 140px;
+  width: 300px;
+  border: 1px solid;
+  background-color: white;
+}
+
+.main input{
+  width: 300px;
+  height: 30px;
+  
+
+  
+}
+.main button{
+  width: 100px;
+  height: 30px;
+  background-color: #4CAF50;
+  color: white;
+  
+  border: none;
+  border-radius: 10px;
+  margin-left: 100px;
+
+}
+.main h1{
+  text-align: center;
+}
+.s5{
+  background-color: red;
+  border: 0px solid;
+  border-radius: 20px;
+  margin-left: 720px;
+  margin-top: 30px;
+  height: 40px;
+  width: 100px;
+  color: white;
+}
+.s40{
+  background-color: red;
+  border: 0px solid;
+  border-radius: 20px;
+  margin-left: 700px;
+  margin-top: 30px;
+  height: 40px;
+  width: 150px;
+  color: white;
+}
+#s51 select{
+  width: 300px;
+  margin-left: 70px;
+}
+#s51 p{
+  margin-left: 70px;
+}
+.s85{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 450px;
+  margin-left: 550px;
+  background-color: #f9f9f9;
+  border: 0px solid;
+  height: inherit;
+  border-radius: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3), 0px 8px 20px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+}
+.s85 input{
+  width: 300px;
+  height: 30px;
+  margin-left: 70px;
+  
+margin-top: 10px;
+  
+}
+.s85 button{
+  width: 100px;
+  height: 30px;
+  background-color: #4CAF50;
+  color: white;
+  
+  border: none;
+  border-radius: 10px;
+  margin-left: 170px;
+
+}
+.s85 h1{
+  text-align: center;
+}
