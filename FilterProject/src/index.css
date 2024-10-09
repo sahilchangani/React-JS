@@ -1,0 +1,29 @@
+input{
+  height: 3%;
+  width: 300px;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+}
+h1{
+   color: #070000;
+   margin-bottom: 20px ;
+  }
+
+.s2{
+  width: 200px;
+  padding: 10px;
+  font-size: 1.1rem;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+p{
+  font-size:20px;
+  padding-top:10px;
+  line-height: 8px;
+}
+#p1{
+
+  display: none;
+}
