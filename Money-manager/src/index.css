@@ -1,0 +1,73 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f9f9f9; 
+    margin: 0; 
+    padding: 20px; 
+}
+
+h1 {
+    color: #333; 
+    font-size: 24px; 
+    margin-bottom: 15px; 
+}
+
+
+.container {
+    display: flex; 
+    justify-content: space-between; /* Space between the two sections */
+    max-width: 800px; /* Max width for the container */
+    margin: 0 auto; /* Center the container */
+}
+
+/* Section Styles */
+.div1, .div2 {
+    background-color: #fff; /* White background for sections */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 5px; /* Slightly rounded corners */
+    padding: 20px; /* Padding inside the sections */
+    width: 45%; /* Each section takes up 45% of the container */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+/* Input Styles */
+input {
+    width: calc(100% - 20px); /* Full width minus padding */
+    padding: 10px; /* Padding for inputs */
+    margin-bottom: 10px; /* Space below inputs */
+    border: 1px solid #ccc; /* Light gray border for inputs */
+    border-radius: 4px; /* Slightly rounded corners for inputs */
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text */
+    padding: 10px; /* Padding for buttons */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners for buttons */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Table Styles */
+table {
+    width: 100%; /* Full width table */
+    border-collapse: collapse; /* Collapse borders */
+    margin-top: 20px; /* Space above the table */
+}
+
+th, td {
+    padding: 10px; /* Padding inside cells */
+    text-align: left; /* Left align text */
+    border-bottom: 1px solid #ddd; /* Light gray border between rows */
+}
+
+th {
+    background-color: #f2f2f2; /* Light gray for header */
+}
+
