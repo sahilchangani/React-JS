@@ -1,0 +1,96 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box1 {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px 50px;
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+}
+
+h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button.bt1 {
+  background-color: #007bff;
+  color: white;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+button.bt1:hover {
+  background-color: #0056b3;
+}
+
+button img {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+button + span {
+  display: block;
+  margin: 15px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+  .box1 {
+      padding: 20px;
+  }
+
+  h1 {
+      font-size: 24px;
+  }
+}
+img{
+  height: 2px;
+}
