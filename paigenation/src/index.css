@@ -1,0 +1,97 @@
+/* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Navbar styles */
+  /* .navbar {
+    background-color: #4caf50;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  } */
+  
+  /* Record container styles */
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    /* padding: 10px; */
+    height: 250px;
+}
+
+/* Record item styles */
+.item {
+      height: 350px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 22%; /* Adjusted to fit 4 items in a row */
+    text-align: center;
+    box-sizing: border-box; /* Ensures padding is included in width */
+  }
+  
+  .image {
+    max-width: 100%;
+    height: 50%;
+  }
+  
+  .title,
+  .category,
+  .price {
+    margin: 5px 0;
+  }
+  li{
+    list-style: none;
+  }
+  /* General reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Container styles */
+  .s1 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    /* padding: 10px; */
+    height: 80px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Button styles */
+  .s1 button {
+    /* padding: 10px 15px; */
+    height: 50px;
+    width: 170px;
+    font-size: 14px;
+    background-color: #4c54af;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  
+  /* Link styles */
+  .s1 a {
+    height: 50px;
+    width: 170px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+  }
+h1{
+    text-align: center;
+}  
